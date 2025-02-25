@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    font-family: "Poppins", serif;
+}
+section{
+    background-color: #222831;
+}
+
+.header{
+    padding-top:48px;
+    padding-right:96px;
+    padding-bottom:48px;
+    padding-left:96px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo h2{
+    width: 109px;
+    height: 36px;
+    color: #EEEEEE;
+    font-family: "Oswald", serif;
+    font-weight: 700;
+    font-size: 24px;
+
+}
+
+.nav{
+    display: flex;
+    width: 502;
+    height: 123;
+    gap: 48px;
+}
+
+.nav a{
+    width: 54;
+    height: 27;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
