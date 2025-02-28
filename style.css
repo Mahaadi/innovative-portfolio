@@ -72,6 +72,12 @@ section{
     color:#00ADB5;
 }
 
+.action-buttons{
+    display:flex;
+    align-items: center;
+    gap: 24px;
+}
+
 .action-buttons button{
     height: 47px;
     padding-top:10px;
@@ -96,11 +102,13 @@ section{
 .downloadCV{
     width: 233px;
     background-color: #393E46BF;
-    
+    display:flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .background{
 width:514px;
 height: 514px;
-border-radius:100%;    
+border-radius:100%;   
 }
