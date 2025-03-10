@@ -7,11 +7,14 @@
 
 body{
     font-family: "Poppins", serif;
-}
-section{
     background-color: #222831;
+    /* width: 1440px;
+    height: 4496px; */
 }
 
+/* Home Section Starts Here */
+
+/* Header starts Here */
 .header{
     padding-top:48px;
     padding-right:96px;
@@ -47,15 +50,28 @@ section{
     font-weight: 400;
     font-size: 18px;
 }
+/* Header Section Ends Here */
 
+/* Hero Section Starts Here */
 .hero{
     display:flex;
     align-items: center;
     justify-content: space-between;
     padding-top:10px;
-    padding-right:102px;
+    padding-right:96px;
     padding-bottom:10px;
-    padding-left:180px;
+    padding-left:96px;
+}
+
+.hero .content {
+    display:flex;
+    align-items: center;
+}
+
+.hero-arrow{
+    margin-top: 60px;
+    Width: 89.96px;
+    Height: 220px;
 }
 
 .hero .content h1{
@@ -107,8 +123,386 @@ section{
     gap: 10px;
 }
 
-.background{
-width:514px;
-height: 514px;
-border-radius:100%;   
+.hero-images{
+    background-image: url("hero-doodles.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    width:514px;
+    height: 514px;
 }
+
+.working{
+    width: 400px;
+    height: 472.6548767089844px;
+    margin-top: 200px;
+    background-image: url("shadow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: 358px;
+}
+/* Hero Section Ends Here */
+/* Home Ends Here */
+
+/* About Section Starts Here */
+.about{   
+    display: flex;
+    gap: 200px;
+    padding-top: 135px;
+    padding-left: 96px;
+    padding-right: 96px;
+}
+
+.music{
+    width: 61.54px;
+    height: 46.57px;
+}
+
+.title-bulb{
+    margin-top: 96px;
+    display: flex;
+}
+
+.title-about{
+    color:#EEEEEE;
+    height: 96px;
+    width: 322px;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.title-about span{
+    color: #00ADB5;
+}
+
+.description{
+    width: 389px;
+    height: 189px;
+    color:#EEEEEEBF;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.read-more-btn{
+    color: #EEEEEE;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    cursor:pointer;
+}
+
+.up-arrow{
+    margin-top: 85px;
+    margin-left: 213px;
+    width: 112.72px;
+    Height: 169.89px;
+}
+
+.about .right{
+    background-image: url("about-doodles.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+    width: 665.33px;
+    height: 499px;
+    padding-top: 230px;
+    
+}
+
+.snoring{
+    margin-left: 200px;
+    margin-top: 95px;
+    margin-bottom: -45px;
+    background-image: url("sleeping.svg");
+}
+
+.sleeping {
+    margin-left: 100px;
+    padding-bottom:20px;
+    background-image: url("shadow.svg");
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 345px;
+}
+/* About Section Ends Here */
+
+/* Recent Work Starts Here */
+.recent-works{
+    height: 1024px;
+    padding-left: 96px;
+    padding-right: 96px;
+    background-image: url("recent-work-background.svg");
+    background-size: 514.67px 386px;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+.recent-work-container{
+    width: 1200px;
+    height: 487px;
+    padding-top: 268px;
+    
+}
+.recent-work-title{
+    width:540px;
+    height: 96px;
+    color:#EEEEEE;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 64px;
+}
+
+.recent-work-title span{
+    color: #00ADB5;
+}
+
+.project-type{
+    padding-top: 5px;
+    padding-bottom: 32px;
+    width: 482px;
+    height: 47px;
+    display:flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.project-type button{
+    padding:10px 32px;
+    color: #EEEEEE;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.all-btn{
+    background-color: #00ADB5;
+    border:0;
+}
+
+.ui-btn, .ux-btn, .web-design-btn{
+    background-color: #393E4680;
+    border: 0;
+}
+
+.images-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.container-images{
+    background-color: #393E4680;
+    background-size: 368px 280px;
+    border-radius: 16px;
+}
+
+.web-sample{
+    margin: 61px 51px;
+}
+
+.ui-sample{
+    margin-top: 49px;
+    margin-bottom: 49px;
+}
+
+.ux-sample{
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+/* Recent Work Ends Here */
+
+/* Contact Section Starts Here */
+.contact-section{
+    height: 1024px;
+    padding-left: 96px;
+    padding-right: 96px;
+    display:flex;
+    gap: 50px;
+
+}
+
+.contact-title{
+    width:600px;
+    height: 160px;
+    color:#EEEEEE;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    padding-top:258px;
+}
+
+.contact-title span{
+    color: #00ADB5;
+}
+
+.contact-left-images{
+    padding-left: 30px;
+    display: flex;
+    gap: 15px;
+}
+
+.growth{
+    padding-left:10px;
+    padding-bottom:20px;
+    background-image: url("shadow.svg");
+    background-repeat: no-repeat;
+    background-size: 190px 58px; 
+    background-position-x: 0px;
+    background-position-y: 320px;
+}
+
+.keyboard{
+    padding-top: 60px;
+    padding-left: 115px;
+    padding-bottom:75px;
+}
+.form{
+    width:600px;
+    height: 437px;
+    color:#EEEEEE;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.form-body{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.name-email-container{
+    display: flex;
+    gap: 10px;
+}
+
+.name, .email, .message-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.name, .email{
+    width: 288px;
+    height: 96px;
+}
+
+.name input{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    background-color: #393E4680;
+    color: #EEEEEE80;
+    border-radius: 16px;
+    border: none;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.email input{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    background-color: #393E4680;
+    color: #EEEEEE80;
+    border-radius: 16px;
+    border: none;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.message-container{
+    width: 590px;
+    height: 317px;
+}
+
+.message-container textarea{
+    height: 280px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    background-color: #393E4680;
+    color: #EEEEEE80;
+    border-radius: 16px;
+    border: none;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.send-msg-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 232px;
+    height: 47px;
+    padding:10px 32px;
+    border: none;
+    cursor:pointer;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 24px;
+    background-color: #00ADB5;
+}
+
+.mail{
+    padding-top: 90px;
+    padding-left: 448px;
+}
+/* Contact Section Ends Here */
+
+/* Footer Section Starts Here */
+.footer{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.footer-nav{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    width: 475px;
+    gap: 48px;
+}
+
+.footer-nav a{
+    height: 47px;
+    padding: 10px;
+    display:flex;
+    align-items: center;
+    gap: 10px;
+    color: #EEEEEE;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 264px;
+    height: 48px;
+    gap: 24px;
+    cursor: pointer;
+}
+
+.privacy{
+    margin-left: 959px;
+    padding: 48px 96px;
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    color: #EEEEEEBF;
+}
+/* Footer Section Ends Here */

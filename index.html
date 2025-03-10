@@ -7,10 +7,12 @@
     <!-- HTML Tag -->
     <title>Our Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=download" />
     <!-- start tag, content, end tag= HTML Elements-->
 </head>
 <body>
-    <section>
+    <!-- Home Section Starts Here -->
+    <section class="home">
         <!-- Header Part -->
         <div class="header">
             <div class="logo">
@@ -25,8 +27,10 @@
             </div> 
         </div>
         <div class="hero">
+
             <div class="content">
-                <h1>CREATIVE UI <br>
+                <div><img class="hero-arrow" src="hero-arrow.svg" alt=""></div>
+                <div><h1>CREATIVE UI <br>
                     <span class="designer">DESIGNER</span>
                 </h1>
                 <div class="action-buttons">
@@ -34,17 +38,122 @@
                         Hire Me
                     </button>
                     <button class="downloadCV">
-                        Download CV <img class="sign" src="downloadoriginal.svg" alt="">
-                    </button>
+                        Download CV <span class="material-symbols-outlined">
+                            download
+                            </span>
+                    </button></div>
                 </div>
             </div>
 
-            <div class="images">
-                <img class="background"src="https://images.pexels.com/photos/6796539/pexels-photo-6796539.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
-        
+            <div class="hero-images">
+                <img class="working"src="hero-working.svg" alt="">
             </div>
             
         </div>
     </section>
+    <!-- Home Section Ends Here -->
+    <!-- About Section Starts Here -->
+    <section class="about">
+        <div class="left">
+            <img class="music" src="music-note.svg" alt="">
+            <div class="title-bulb">
+                <h3 class="title-about">About <span>Me</span></h3>
+            <img class="bulb" src="lightbulb.svg" alt="">
+            </div>
+            <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur tempus urna at turpis condimentum lobortis.... <span class="read-more-btn">Read more</span>
+            </p>
+            <img class="up-arrow" src="upper-arrow.svg" alt="">
+        </div>
+        <div class="right">
+            <img class="snoring" src="snoring.svg" alt="">
+            <br>
+            <img class="sleeping" src="sleeping.svg" alt="">
+        </div>
+    </section>
+    <!-- About Section Ends Here -->
+    <!-- Recent Work Starts Here -->
+    <section class="recent-works">
+        <div class="recent-work-container">
+            <h3 class="recent-work-title">My recent <span>works</span></h3>
+            <div class="project-type">
+                <button class="all-btn">All</button>
+                <button class="ui-btn">UI</button>
+                <button class="ux-btn">UX</button>
+                <button class="web-design-btn">Web Design</button>
+            </div>
+
+            <div class="images-container">
+                <div class="container-images">
+                    <img class="web-sample" src="Website-Landing-Page.svg" alt="">
+                </div>
+                <div class="container-images">
+                    <img class="ui-sample" src="UI-Sample.svg" alt="">
+                </div>
+                <div class="container-images">
+                    <img class="ux-sample" src="UX-Sample.svg" alt="">
+                </div> 
+            </div>
+        </div>
+    </section>
+    <!-- Recent Work Ends Here -->
+    <!-- Contact Section Starts Here -->
+    <section class="contact-section">
+        <div class="contact-left">
+            <h3 class="contact-title">Got a project in <br>
+            <span>mind?</span>
+        </h3>
+            <div class="contact-left-images">
+                <img class="down-arrow" src="contact-arrow.svg" alt="">
+                <img class="growth" src="growth-vector.svg" alt="">
+            </div>
+        </div>
+        <div class="contact-right">
+            <img src="keyboard.svg" alt="" class="keyboard">
+            <div class="form">
+                <form class="form-body" action="#">
+                    <div class="name-email-container">
+                        <div class="name">
+                            <label for="">Your name</label>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="email">
+                            <label for="">Your email</label>
+                            <input type="email" placeholder="Email">
+                        </div>
+
+                    </div>
+                    <div class="message-container">
+                        <label for="">Your message</label>
+                        <textarea name="" id="" placeholder="Message"></textarea>
+                    </div>
+                    <div>
+                        <button class="send-msg-btn" type="submit">
+                            <span>Send Message</span>
+                            <img src="send-icon.svg" alt="">
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <img src="mail.svg" alt="" class="mail">
+        </div>
+    
+    </section>
+    <!-- Contact Section Ends Here -->
+    <!-- Footer Section Starts Here -->
+    <section class="footer">
+        <div class="footer-nav">
+            <a href="#"><img src="home.svg" alt="">Home</a>
+            <a href="#"><img src="user.svg" alt="">About</a>
+            <a href="#"><img src="phone.svg" alt="">Contact</a>
+        </div>
+        <div class="social-media">
+            <img src="fb.svg" alt="" href="https://facebook.com">
+            <img src="insta.svg" alt="" href="https://instagram.com">
+            <img src="x.svg" alt="" href="https://x.com">
+            <img src="youtube.svg" alt="" href="https://youtube.com">
+        </div>
+        <p class="privacy" href="#">Terms of Service - Privacy Policy<p>        
+    </section>
+    <!-- Footer Section Ends Here -->
 </body>
 </html>
